@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q2 Drill 2- Navigation Bar</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- GOOGLE FONT -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Epunda+Slab:ital,wght@0,300..900;1,300..900&family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+    <!-- BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    
+</head> 
+<body>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="javascript:void(0)"><img src="OBMC 60 Icon_Circle.png" width="50px"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="mynavbar">
+            <ul class="navbar-nav me-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Contact Us</a>
+              </li>
+             
+
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="text" placeholder="Search">
+              <button class="btn btn-danger" type="button">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+      <div class="container-fluid mt-3">
+        <div class="container p-5 mt-3 bg-light text-dark">
+            <h3> Contact Us </h3><hr>
+                    <p>
+                      Connect with O.B. Montessori <br>
+                      We are here to answer your questions. <br>
+                      Please use the appropriate contact information below.
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-6">
+                    
+                    <table>
+                        <tr>
+                          <th>Day</th>
+                          <th>Office Hours</th>
+                          <th>Department</th>
+                        </tr>
+                        <tr>
+                          <td>Monday</td>
+                          <td>8:00AM - 4:00PM</td>
+                          <td>Regristar's Office</td>
+                        </tr>
+                        <tr>
+                          <td>Tuesday</td>
+                          <td>8:00AM - 4:00PM</td>
+                          <td>Accounting Office</td>
+                        </tr>
+                        <tr>
+                            <td>Wednesday</td>
+                            <td>8:00AM - 4:00PM</td>
+                            <td>Guidance Office</td>
+                        </tr>
+                        <tr>
+                            <td>Thursday</td>
+                            <td>8:00AM - 4:00PM</td>
+                            <td>Principal's Office</td>
+                        </tr>
+                        <tr>
+                            <td>Friday</td>
+                            <td>8:00AM - 3:00PM</td>
+                            <td>Admin Office</td>
+                        </tr>
+                      </table>
+        
+                
+                </div>
+                <div class="col-12 col-md-6 col-lg-6">
+                <div class="table">
+                    <form>
+                        <!-- EMAIL -->
+                        <div class="email mb-3">
+                            <label class="form-label" for="inputEmail">Email</label>
+                            <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+                        </div>
+            
+                        <!-- PASSWORD -->
+                        <div class="password mb-3">
+                            <label class="form-label" for="inputPassword">Password</label>
+                            <input type="password" class="form-control" id="inputPassword" placeholder="Password">
+                        </div>
+            
+                        <!-- CHECKBOX -->
+                        <div class="remember mb-3">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="checkRemember">
+                                <label class="form-check-label" for="checkRemember">Remember me</label>
+                            </div>
+                        </div>
+            
+                        <!-- BUTTON -->
+                        <button type="submit" class="btn btn-danger">Sign in</button>
+                    </div>
+                </form>
+                </div>
+            </div>
+        </div>
+        </div>
+
+      <footer class="text-center py-3 bg-dark text-light mt-auto fixed-bottom">
+         &copy; 2025 Copyright
+            </footer>
+
+</body>
+
+</html>

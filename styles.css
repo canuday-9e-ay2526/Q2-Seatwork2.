@@ -1,0 +1,32 @@
+body {
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal; 
+    background-image: url(OBMCGH.jpg);
+    text-align: center;
+    }
+    table {
+        font-family: arial, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+        border: 1px solid rgb(113, 121, 166);          
+      }
+    
+
+      td {
+        border: 1px solid #a8bce9;
+        text-align: left;
+        padding: 8px;
+      }
+      
+      tr:nth-child(even) {
+        background-color: #c0ccecce;
+      }
+    
+    
+
+    .col-12 {
+        border: 1px solid rgb(113, 121, 166);      
+
+    }
